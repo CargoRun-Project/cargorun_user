@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cargorun.user"
+4    android:versionCode="2"
+5    android:versionName="0.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:2:5-79
+11-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:2:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:3:5-81
+12-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:3:22-78
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:4:5-85
+13-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:4:22-82
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:5:5-66
+14-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] /Users/mypc/.gradle/caches/transforms-3/5203193235d516688a7097db1e83ec19/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+29        android:name="com.cargorun.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] /Users/mypc/.gradle/caches/transforms-3/5203193235d516688a7097db1e83ec19/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] /Users/mypc/.gradle/caches/transforms-3/5203193235d516688a7097db1e83ec19/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.cargorun.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] /Users/mypc/.gradle/caches/transforms-3/5203193235d516688a7097db1e83ec19/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] /Users/mypc/.gradle/caches/transforms-3/5203193235d516688a7097db1e83ec19/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+33
+34    <application
+35        android:name="android.app.Application"
+35-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:8:9-42
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] /Users/mypc/.gradle/caches/transforms-3/5203193235d516688a7097db1e83ec19/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:9:9-43
+38        android:label="Cargo Run" >
+38-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:7:9-34
+39        <activity
+39-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:10:9-30:20
+40            android:name="com.example.cargo_run.MainActivity"
+40-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:11:13-41
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+41-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:15:13-163
+42            android:exported="true"
+42-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:12:13-36
+43            android:hardwareAccelerated="true"
+43-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:16:13-47
+44            android:launchMode="singleTop"
+44-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:13:13-43
+45            android:theme="@style/LaunchTheme"
+45-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:14:13-47
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:17:13-55
+47
+48            <!--
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+54-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:22:13-25:17
+55                android:name="io.flutter.embedding.android.NormalTheme"
+55-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:23:15-70
+56                android:resource="@style/NormalTheme" />
+56-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:24:15-52
+57
+58            <intent-filter>
+58-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:26:13-29:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:27:17-68
+59-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:27:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:28:17-76
+61-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:28:27-74
+62            </intent-filter>
+63        </activity>
+64        <!--
+65             Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+68-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:33:9-35:33
+69            android:name="flutterEmbedding"
+69-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:34:13-44
+70            android:value="2" />
+70-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:35:13-30
+71        <meta-data
+71-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:36:9-37:70
+72            android:name="com.google.android.geo.API_KEY"
+72-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:36:20-65
+73            android:value="AIzaSyBEpjY975IqaOmMmZXaN9vX4ZWZf1fO6sw" />
+73-->/Users/mypc/projects/CargoRun/cargorun_user/android/app/src/main/AndroidManifest.xml:37:13-68
+74
+75        <service
+75-->[:geolocator_android] /Users/mypc/projects/CargoRun/cargorun_user/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+76            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+76-->[:geolocator_android] /Users/mypc/projects/CargoRun/cargorun_user/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+77            android:enabled="true"
+77-->[:geolocator_android] /Users/mypc/projects/CargoRun/cargorun_user/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+78            android:exported="false"
+78-->[:geolocator_android] /Users/mypc/projects/CargoRun/cargorun_user/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+79            android:foregroundServiceType="location" />
+79-->[:geolocator_android] /Users/mypc/projects/CargoRun/cargorun_user/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+80
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] /Users/mypc/.gradle/caches/transforms-3/78fbd64af62dbdf102ba7c817970421b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.0.0-beta04] /Users/mypc/.gradle/caches/transforms-3/78fbd64af62dbdf102ba7c817970421b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] /Users/mypc/.gradle/caches/transforms-3/78fbd64af62dbdf102ba7c817970421b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] /Users/mypc/.gradle/caches/transforms-3/78fbd64af62dbdf102ba7c817970421b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.0.0-beta04] /Users/mypc/.gradle/caches/transforms-3/78fbd64af62dbdf102ba7c817970421b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+86            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+86-->[androidx.window:window:1.0.0-beta04] /Users/mypc/.gradle/caches/transforms-3/78fbd64af62dbdf102ba7c817970421b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+87        <uses-library
+87-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+88            android:name="org.apache.http.legacy"
+88-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+89            android:required="false" />
+89-->[com.google.android.gms:play-services-maps:18.2.0] /Users/mypc/.gradle/caches/transforms-3/755de89d947465b5e4144ab808c2957f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:18.1.0] /Users/mypc/.gradle/caches/transforms-3/cbf0be92fa9c3cbe404408fa9d86ddb2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:18.1.0] /Users/mypc/.gradle/caches/transforms-3/cbf0be92fa9c3cbe404408fa9d86ddb2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:18.1.0] /Users/mypc/.gradle/caches/transforms-3/cbf0be92fa9c3cbe404408fa9d86ddb2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:18.1.0] /Users/mypc/.gradle/caches/transforms-3/cbf0be92fa9c3cbe404408fa9d86ddb2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mypc/.gradle/caches/transforms-3/25c99bd51528b9fabcec2f2ff08040ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mypc/.gradle/caches/transforms-3/25c99bd51528b9fabcec2f2ff08040ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mypc/.gradle/caches/transforms-3/25c99bd51528b9fabcec2f2ff08040ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+99    </application>
+100
+101</manifest>
